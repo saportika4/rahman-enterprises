@@ -1391,7 +1391,12 @@ button.mfp-close:before {
 }
 .kf-footer {
     padding: 70px 0 0 0;
-    background: #090c0f;
+    background-image: url(images/banner/banner4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background: #090c0f; */
 }
 .kf-footer h5 {
     margin: 0 0 20px 0;
@@ -1741,7 +1746,7 @@ button.mfp-close:before {
 .kf-started-item .name {
     margin: 0 0 50px 0;
     font-family: Oswald;
-    font-size: 120px;
+    font-size: 80px;
     line-height: 1.2;
     color: #fff;
     font-weight: 500;
@@ -1809,7 +1814,7 @@ button.mfp-close:before {
     }
 }
 .section.kf-about {
-    padding-bottom: 0;
+    padding-bottom: 50px;
     overflow: hidden;
 }
 .section.kf-about .kf-title {
@@ -4789,4 +4794,8 @@ small {
     .kf-testimonials-carousel .slide-item .stars {
         font-size: 14px;
     }
+}
+
+.justify {
+    text-align: justify;
 }
