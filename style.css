@@ -4876,4 +4876,5 @@ small {
 .desc {
     padding-left: 23px;
     color: rgba(255, 255, 255, 0.6);
+    text-align: justify;
 }
