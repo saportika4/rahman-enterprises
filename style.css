@@ -2130,12 +2130,12 @@ button.mfp-close:before {
 
 @media (max-width:400px) {
     .kf-choose-list ul li .desc {
-        margin-left: 55px;
+        margin-left: 40px;
     }
 
     .kf-choose-list ul li .icon {
         float: left;
-        width: 45px;
+        width: 35px;
         text-align: center;
     }
 }
