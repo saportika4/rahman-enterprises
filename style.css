@@ -2127,6 +2127,19 @@ button.mfp-close:before {
 .kf-choose-list ul li .desc {
     margin-left: 100px;
 }
+
+@media (max-width:400px) {
+    .kf-choose-list ul li .desc {
+        margin-left: 55px;
+    }
+
+    .kf-choose-list ul li .icon {
+        float: left;
+        width: 45px;
+        text-align: center;
+    }
+}
+
 .kf-choose-list ul li .name {
     margin: 0 0 10px 0;
 }
