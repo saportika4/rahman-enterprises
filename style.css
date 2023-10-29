@@ -1849,19 +1849,32 @@ button.mfp-close:before {
     margin-left: 115px;
 }
 .kf-about-image {
-    margin-right: -100px;
-    text-align: right;
+    /* margin-right: -100px; */
+    text-align: center;
 }
 .kf-about-image img {
-    max-width: 686px;
+    max-width: 450px;
 }
+
+@media (max-width:550px) {
+    .kf-about-image img {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 400px) {
+    .kf-about-image img {
+        max-width: 300px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .kf-about-image {
         margin-right: 0;
         margin-top: 50px;
     }
     .kf-about-image img {
-        max-width: 100%;
+        /* max-width: 100%; */
     }
 }
 @media screen and (max-width: 767px) {
@@ -3681,7 +3694,7 @@ button.mfp-close:before {
     margin-top: 30px;
     padding: 45px;
     position: relative;
-    min-height: 414px;
+    min-height: 300px;
     background: #090c0f;
 }
 .kf-contacts-item .image {
@@ -4858,4 +4871,9 @@ small {
     .h-resp {
         min-height: 400px;
     }
+}
+
+.desc {
+    padding-left: 23px;
+    color: rgba(255, 255, 255, 0.6);
 }
