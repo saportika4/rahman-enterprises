@@ -4903,12 +4903,6 @@ small {
     max-width: 65px;
 }
 
-#btn-back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-  }
 
   #progress {
     position: fixed;
@@ -4933,4 +4927,21 @@ small {
     place-items: center;
     font-size: 35px;
     color: #001a2e;
+  }
+  
+  @media(max-width:500px) {
+    .whatsapp-logo {
+        max-width: 45px;
+    }
+
+    #progress {
+        height: 50px;
+        width: 50px;
+      }
+      #progress-value {
+        height: calc(100% - 10px);
+        width: calc(100% - 10px);
+        font-size: 26px;
+      }
+
   }
