@@ -4928,11 +4928,19 @@ small {
     font-size: 35px;
     color: #001a2e;
   }
+
+  .top {
+    max-width: 26px;
+  }
   
   @media(max-width:500px) {
     .whatsapp-logo {
         max-width: 45px;
     }
+
+    .top {
+        max-width: 22px;
+      }
 
     #progress {
         height: 50px;
