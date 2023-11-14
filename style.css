@@ -1709,7 +1709,7 @@ button.mfp-close:before {
     position: relative;
     width: 100%;
     height: calc(100vh - 140px);
-    min-height: 600px;
+    min-height: 520px;
 }
 .kf-started-item .container {
     height: 100%;
