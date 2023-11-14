@@ -1240,7 +1240,7 @@ button.mfp-close:before {
     top: -20vh;
     width: 140vw;
     height: 120vh;
-    background: #13873b;
+    background: #090c0f;
     -webkit-animation: nav-mobile-close 0.75s cubic-bezier(0.3, 0, 0.3, 1) forwards;
     animation: nav-mobile-close 0.75s cubic-bezier(0.3, 0, 0.3, 1) forwards;
 }
@@ -1256,6 +1256,7 @@ button.mfp-close:before {
     -webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
 }
 .kf-navbar-mobile .kf-main-menu ul li {
+    text-align: center;
     margin-left: 0;
     margin-bottom: 10px;
     display: block;
@@ -1266,6 +1267,7 @@ button.mfp-close:before {
     -webkit-transform: rotate(180deg);
 }
 .kf-navbar-mobile .kf-main-menu ul li a {
+    color: white;
     margin: 0;
     position: relative;
     display: inline-block;
@@ -1788,12 +1790,16 @@ button.mfp-close:before {
 }
 @media screen and (max-width: 767px) {
     .kf-started-item {
-        height: calc(100vh - 90px);
-        min-height: 480px;
+        /* height: calc(100vh - 90px);
+        min-height: 480px; */
+        max-height: 40vh !important;
+        min-height: 40vh !important;
     }
     .kf-started-item .name {
-        font-size: 50px;
-        line-height: 60px;
+        /* font-size: 50px;
+        line-height: 60px; */
+        font-size: 35px;
+        line-height: 39px;
     }
     .kf-started-item .subtitles ul li {
         padding-left: 15px;
